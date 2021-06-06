@@ -43,7 +43,7 @@ public class MovementGameScreen implements Screen {
     private TextureRegion biffCurrentFrame;
     private OrthogonalTiledMapRenderer mapRenderer;
     private OrthographicCamera camera;
-    private static MapManager mapManager;
+    private MapManager mapManager;
 
 
     public MovementGameScreen() {
