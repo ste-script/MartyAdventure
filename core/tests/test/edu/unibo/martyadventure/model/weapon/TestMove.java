@@ -19,7 +19,6 @@ public class TestMove {
         assertEquals(HOOK1.getFailRatio(), Move.HOOK.getFailRatio());
         assertEquals(HOOK1.getReloadTime(), Move.HOOK.getReloadTime());
         assertEquals(HOOK1.getType(), Move.HOOK.getType());
-        // System.err.println("testLoadingMove ok");
     }
 
     @Test
@@ -28,7 +27,6 @@ public class TestMove {
         // HOOK1 lastUse -> 1
         assertFalse(HOOK1.isUsable(2, 2));
         assertTrue(HOOK1.isUsable(2, 1));
-        // System.err.println("testIsUsable ok");
     }
 
     @Test
