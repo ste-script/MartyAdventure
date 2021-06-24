@@ -21,7 +21,5 @@ public class TestWeapon {
         List<Move> moveList2 = new ArrayList<>(List.of(Move.UPPERCUT, Move.HOOK, Move.JAB, Move.SUPERMANPUNCH));
         weaponTest.setMoveList(moveList2);
         assertEquals(moveList2, weaponTest.getMoveList());
-        // System.err.println("testSetMoveList ok");
     }
-
 }
