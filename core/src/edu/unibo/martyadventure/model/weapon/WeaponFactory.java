@@ -60,7 +60,6 @@ public class WeaponFactory {
     public static Weapon createWeapon(String name, double damageMultiplier, Weapon.WeaponType type) {
         Weapon weapon = new Weapon(name, 0);
         List<Move> moveList = new ArrayList<>();
-        int i = 0;
         Move move;
         do {
             if (type == WeaponType.MELEE) {
@@ -70,10 +69,9 @@ public class WeaponFactory {
             }
 
             if (!moveList.contains(move)) {
-                moveList.add(i, move);
-                i++;
+                moveList.add(move);
             }
-        } while (i < Weapon.MOVE_LIST_SIZE);
+        } while (moveList.size() < Weapon.MOVE_LIST_SIZE);
         weapon.setDamageMultiplier(damageMultiplier);
         weapon.setMoveList(moveList);
         weapon.setType(type);
