@@ -126,7 +126,7 @@ public class WeaponFactory {
      * 
      * @return Random double between MIN and MAX
      */
-    public static float randomDamageMultiplier() {
+    private static float randomDamageMultiplier() {
         return ((ThreadLocalRandom.current().nextFloat() % MAX_DAMAGE_MULTIPLIER) + MIN_DAMAGE_MULTIPLIER);
     }
 
