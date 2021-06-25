@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/Marty's Adventure-desktop/src/edu/unibo/martyadventure/desktop/DesktopLauncher.java"/>
+        <listEntry value="/OOP20-Martyadventure/src/edu/unibo/martyadventure/desktop/DesktopLauncher.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
@@ -14,5 +14,5 @@
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="edu.unibo.martyadventure.desktop.DesktopLauncher"/>
     <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="Marty's Adventure-desktop"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Marty's Adventure-desktop"/>
-    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:MartyAdventure/core/assets}"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:OOP20-Martyadventure/core/assets}"/>
 </launchConfiguration>
